@@ -1,0 +1,12 @@
+D:\公司培训\自学\Vue.NetCore-master\.Net6版本\VOL.Entity\bin\Debug\net6.0\VOL.Entity.deps.json
+D:\公司培训\自学\Vue.NetCore-master\.Net6版本\VOL.Entity\bin\Debug\net6.0\VOL.Entity.dll
+D:\公司培训\自学\Vue.NetCore-master\.Net6版本\VOL.Entity\bin\Debug\net6.0\VOL.Entity.pdb
+D:\公司培训\自学\Vue.NetCore-master\.Net6版本\VOL.Entity\obj\Debug\net6.0\VOL.Entity.csproj.AssemblyReference.cache
+D:\公司培训\自学\Vue.NetCore-master\.Net6版本\VOL.Entity\obj\Debug\net6.0\VOL.Entity.GeneratedMSBuildEditorConfig.editorconfig
+D:\公司培训\自学\Vue.NetCore-master\.Net6版本\VOL.Entity\obj\Debug\net6.0\VOL.Entity.AssemblyInfoInputs.cache
+D:\公司培训\自学\Vue.NetCore-master\.Net6版本\VOL.Entity\obj\Debug\net6.0\VOL.Entity.AssemblyInfo.cs
+D:\公司培训\自学\Vue.NetCore-master\.Net6版本\VOL.Entity\obj\Debug\net6.0\VOL.Entity.csproj.CoreCompileInputs.cache
+D:\公司培训\自学\Vue.NetCore-master\.Net6版本\VOL.Entity\obj\Debug\net6.0\VOL.Entity.dll
+D:\公司培训\自学\Vue.NetCore-master\.Net6版本\VOL.Entity\obj\Debug\net6.0\refint\VOL.Entity.dll
+D:\公司培训\自学\Vue.NetCore-master\.Net6版本\VOL.Entity\obj\Debug\net6.0\VOL.Entity.pdb
+D:\公司培训\自学\Vue.NetCore-master\.Net6版本\VOL.Entity\obj\Debug\net6.0\ref\VOL.Entity.dll

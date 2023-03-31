@@ -1,0 +1,17 @@
+D:\公司培训\自学\Vue.NetCore-master\.Net6版本\VOL.Order\bin\Debug\net6.0\VOL.Order.deps.json
+D:\公司培训\自学\Vue.NetCore-master\.Net6版本\VOL.Order\bin\Debug\net6.0\VOL.Order.dll
+D:\公司培训\自学\Vue.NetCore-master\.Net6版本\VOL.Order\bin\Debug\net6.0\VOL.Order.pdb
+D:\公司培训\自学\Vue.NetCore-master\.Net6版本\VOL.Order\bin\Debug\net6.0\VOL.Core.dll
+D:\公司培训\自学\Vue.NetCore-master\.Net6版本\VOL.Order\bin\Debug\net6.0\VOL.Entity.dll
+D:\公司培训\自学\Vue.NetCore-master\.Net6版本\VOL.Order\bin\Debug\net6.0\VOL.Core.pdb
+D:\公司培训\自学\Vue.NetCore-master\.Net6版本\VOL.Order\bin\Debug\net6.0\VOL.Entity.pdb
+D:\公司培训\自学\Vue.NetCore-master\.Net6版本\VOL.Order\obj\Debug\net6.0\VOL.Order.csproj.AssemblyReference.cache
+D:\公司培训\自学\Vue.NetCore-master\.Net6版本\VOL.Order\obj\Debug\net6.0\VOL.Order.GeneratedMSBuildEditorConfig.editorconfig
+D:\公司培训\自学\Vue.NetCore-master\.Net6版本\VOL.Order\obj\Debug\net6.0\VOL.Order.AssemblyInfoInputs.cache
+D:\公司培训\自学\Vue.NetCore-master\.Net6版本\VOL.Order\obj\Debug\net6.0\VOL.Order.AssemblyInfo.cs
+D:\公司培训\自学\Vue.NetCore-master\.Net6版本\VOL.Order\obj\Debug\net6.0\VOL.Order.csproj.CoreCompileInputs.cache
+D:\公司培训\自学\Vue.NetCore-master\.Net6版本\VOL.Order\obj\Debug\net6.0\VOL.Order.csproj.CopyComplete
+D:\公司培训\自学\Vue.NetCore-master\.Net6版本\VOL.Order\obj\Debug\net6.0\VOL.Order.dll
+D:\公司培训\自学\Vue.NetCore-master\.Net6版本\VOL.Order\obj\Debug\net6.0\refint\VOL.Order.dll
+D:\公司培训\自学\Vue.NetCore-master\.Net6版本\VOL.Order\obj\Debug\net6.0\VOL.Order.pdb
+D:\公司培训\自学\Vue.NetCore-master\.Net6版本\VOL.Order\obj\Debug\net6.0\ref\VOL.Order.dll
