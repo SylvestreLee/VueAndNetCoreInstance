@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lVb0qD/lAjoY9LkGJUt39rWSU/pMoatQ0J41hQW5h0rRiHB9ykPkXR9zeoM7xwAjqiZhMEITHRnKf/SFB4qDQQ==",
+  "dgSpecHash": "sPxPEH5NtP36RxqH8HrinJWvb+gf/G7WibqRcv689lsBaGnIXWDW0x1ElWaZCCYqvUFkSSObhiPx+9kaVLN3EA==",
   "success": true,
-  "projectFilePath": "D:\\公司培训\\自学\\Vue.NetCore-master\\.Net6版本\\VOL.System\\VOL.System.csproj",
+  "projectFilePath": "D:\\VueAndNetCoreInstance\\.Net Core\\VOL.System\\VOL.System.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Prince\\.nuget\\packages\\autofac\\6.0.0\\autofac.6.0.0.nupkg.sha512",
     "C:\\Users\\Prince\\.nuget\\packages\\autofac.extensions.dependencyinjection\\6.0.0\\autofac.extensions.dependencyinjection.6.0.0.nupkg.sha512",

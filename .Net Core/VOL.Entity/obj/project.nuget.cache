@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6VMrViuZCVmkE8Mkm6gJ4NAGD8EpfDxBVNCucsMW1S0wvfrVE4GFmm5ItX8EvElC+Zlzrlb3c+K8VC+2awPbPA==",
+  "dgSpecHash": "qp2jamNe7Lr5qIpi1A3Iq4mJXg0zy8QpQxTwJXg3JgpixKgcgF7lyD25lA6eLkYCARWPyhdGaW+CShse1qTn9A==",
   "success": true,
-  "projectFilePath": "D:\\公司培训\\自学\\Vue.NetCore-master\\.Net6版本\\VOL.Entity\\VOL.Entity.csproj",
+  "projectFilePath": "D:\\VueAndNetCoreInstance\\.Net Core\\VOL.Entity\\VOL.Entity.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Prince\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Prince\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

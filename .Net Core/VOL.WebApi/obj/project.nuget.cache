@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MLaWXcWtr4d+vNxClTqwTRAlXOM/I5GUDpTW/iC9HuwANn3BdQXW1FYDirbvNF0nA3+eklfeaw0FiCkPJ8wvxw==",
+  "dgSpecHash": "QWcK/bPownkMJUOo1x+8sxtC3vqpvPVO850eAIYGYqb2WXI0mVV53CIBf7pU+gDwIAnpxR360N7jav+GPLmWug==",
   "success": true,
-  "projectFilePath": "D:\\公司培训\\自学\\Vue.NetCore-master\\.Net6版本\\VOL.WebApi\\VOL.WebApi.csproj",
+  "projectFilePath": "D:\\VueAndNetCoreInstance\\.Net Core\\VOL.WebApi\\VOL.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Prince\\.nuget\\packages\\autofac\\6.0.0\\autofac.6.0.0.nupkg.sha512",
     "C:\\Users\\Prince\\.nuget\\packages\\autofac.extensions.dependencyinjection\\6.0.0\\autofac.extensions.dependencyinjection.6.0.0.nupkg.sha512",

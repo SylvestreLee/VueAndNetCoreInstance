@@ -10578,11 +10578,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\公司培训\\自学\\Vue.NetCore-master\\.Net6版本\\VOL.WebApi\\VOL.WebApi.csproj",
+      "projectUniqueName": "D:\\VueAndNetCoreInstance\\.Net Core\\VOL.WebApi\\VOL.WebApi.csproj",
       "projectName": "VOL.WebApi",
-      "projectPath": "D:\\公司培训\\自学\\Vue.NetCore-master\\.Net6版本\\VOL.WebApi\\VOL.WebApi.csproj",
+      "projectPath": "D:\\VueAndNetCoreInstance\\.Net Core\\VOL.WebApi\\VOL.WebApi.csproj",
       "packagesPath": "C:\\Users\\Prince\\.nuget\\packages\\",
-      "outputPath": "D:\\公司培训\\自学\\Vue.NetCore-master\\.Net6版本\\VOL.WebApi\\obj\\",
+      "outputPath": "D:\\VueAndNetCoreInstance\\.Net Core\\VOL.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -10602,23 +10602,23 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\公司培训\\自学\\Vue.NetCore-master\\.Net6版本\\VOL.AppManager\\VOL.AppManager.csproj": {
-              "projectPath": "D:\\公司培训\\自学\\Vue.NetCore-master\\.Net6版本\\VOL.AppManager\\VOL.AppManager.csproj"
+            "D:\\VueAndNetCoreInstance\\.Net Core\\VOL.AppManager\\VOL.AppManager.csproj": {
+              "projectPath": "D:\\VueAndNetCoreInstance\\.Net Core\\VOL.AppManager\\VOL.AppManager.csproj"
             },
-            "D:\\公司培训\\自学\\Vue.NetCore-master\\.Net6版本\\VOL.Builder\\VOL.Builder.csproj": {
-              "projectPath": "D:\\公司培训\\自学\\Vue.NetCore-master\\.Net6版本\\VOL.Builder\\VOL.Builder.csproj"
+            "D:\\VueAndNetCoreInstance\\.Net Core\\VOL.Builder\\VOL.Builder.csproj": {
+              "projectPath": "D:\\VueAndNetCoreInstance\\.Net Core\\VOL.Builder\\VOL.Builder.csproj"
             },
-            "D:\\公司培训\\自学\\Vue.NetCore-master\\.Net6版本\\VOL.Core\\VOL.Core.csproj": {
-              "projectPath": "D:\\公司培训\\自学\\Vue.NetCore-master\\.Net6版本\\VOL.Core\\VOL.Core.csproj"
+            "D:\\VueAndNetCoreInstance\\.Net Core\\VOL.Core\\VOL.Core.csproj": {
+              "projectPath": "D:\\VueAndNetCoreInstance\\.Net Core\\VOL.Core\\VOL.Core.csproj"
             },
-            "D:\\公司培训\\自学\\Vue.NetCore-master\\.Net6版本\\VOL.Entity\\VOL.Entity.csproj": {
-              "projectPath": "D:\\公司培训\\自学\\Vue.NetCore-master\\.Net6版本\\VOL.Entity\\VOL.Entity.csproj"
+            "D:\\VueAndNetCoreInstance\\.Net Core\\VOL.Entity\\VOL.Entity.csproj": {
+              "projectPath": "D:\\VueAndNetCoreInstance\\.Net Core\\VOL.Entity\\VOL.Entity.csproj"
             },
-            "D:\\公司培训\\自学\\Vue.NetCore-master\\.Net6版本\\VOL.Order\\VOL.Order.csproj": {
-              "projectPath": "D:\\公司培训\\自学\\Vue.NetCore-master\\.Net6版本\\VOL.Order\\VOL.Order.csproj"
+            "D:\\VueAndNetCoreInstance\\.Net Core\\VOL.Order\\VOL.Order.csproj": {
+              "projectPath": "D:\\VueAndNetCoreInstance\\.Net Core\\VOL.Order\\VOL.Order.csproj"
             },
-            "D:\\公司培训\\自学\\Vue.NetCore-master\\.Net6版本\\VOL.System\\VOL.System.csproj": {
-              "projectPath": "D:\\公司培训\\自学\\Vue.NetCore-master\\.Net6版本\\VOL.System\\VOL.System.csproj"
+            "D:\\VueAndNetCoreInstance\\.Net Core\\VOL.System\\VOL.System.csproj": {
+              "projectPath": "D:\\VueAndNetCoreInstance\\.Net Core\\VOL.System\\VOL.System.csproj"
             }
           }
         }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\公司培训\\自学\\Vue.NetCore-master\\.Net6版本\\VOL.Core\\VOL.Core.csproj": {}
+    "D:\\VueAndNetCoreInstance\\.Net Core\\VOL.Core\\VOL.Core.csproj": {}
   },
   "projects": {
-    "D:\\公司培训\\自学\\Vue.NetCore-master\\.Net6版本\\VOL.Core\\VOL.Core.csproj": {
+    "D:\\VueAndNetCoreInstance\\.Net Core\\VOL.Core\\VOL.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\公司培训\\自学\\Vue.NetCore-master\\.Net6版本\\VOL.Core\\VOL.Core.csproj",
+        "projectUniqueName": "D:\\VueAndNetCoreInstance\\.Net Core\\VOL.Core\\VOL.Core.csproj",
         "projectName": "VOL.Core",
-        "projectPath": "D:\\公司培训\\自学\\Vue.NetCore-master\\.Net6版本\\VOL.Core\\VOL.Core.csproj",
+        "projectPath": "D:\\VueAndNetCoreInstance\\.Net Core\\VOL.Core\\VOL.Core.csproj",
         "packagesPath": "C:\\Users\\Prince\\.nuget\\packages\\",
-        "outputPath": "D:\\公司培训\\自学\\Vue.NetCore-master\\.Net6版本\\VOL.Core\\obj\\",
+        "outputPath": "D:\\VueAndNetCoreInstance\\.Net Core\\VOL.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -31,8 +31,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\公司培训\\自学\\Vue.NetCore-master\\.Net6版本\\VOL.Entity\\VOL.Entity.csproj": {
-                "projectPath": "D:\\公司培训\\自学\\Vue.NetCore-master\\.Net6版本\\VOL.Entity\\VOL.Entity.csproj"
+              "D:\\VueAndNetCoreInstance\\.Net Core\\VOL.Entity\\VOL.Entity.csproj": {
+                "projectPath": "D:\\VueAndNetCoreInstance\\.Net Core\\VOL.Entity\\VOL.Entity.csproj"
               }
             }
           }
@@ -159,14 +159,14 @@
         }
       }
     },
-    "D:\\公司培训\\自学\\Vue.NetCore-master\\.Net6版本\\VOL.Entity\\VOL.Entity.csproj": {
+    "D:\\VueAndNetCoreInstance\\.Net Core\\VOL.Entity\\VOL.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\公司培训\\自学\\Vue.NetCore-master\\.Net6版本\\VOL.Entity\\VOL.Entity.csproj",
+        "projectUniqueName": "D:\\VueAndNetCoreInstance\\.Net Core\\VOL.Entity\\VOL.Entity.csproj",
         "projectName": "VOL.Entity",
-        "projectPath": "D:\\公司培训\\自学\\Vue.NetCore-master\\.Net6版本\\VOL.Entity\\VOL.Entity.csproj",
+        "projectPath": "D:\\VueAndNetCoreInstance\\.Net Core\\VOL.Entity\\VOL.Entity.csproj",
         "packagesPath": "C:\\Users\\Prince\\.nuget\\packages\\",
-        "outputPath": "D:\\公司培训\\自学\\Vue.NetCore-master\\.Net6版本\\VOL.Entity\\obj\\",
+        "outputPath": "D:\\VueAndNetCoreInstance\\.Net Core\\VOL.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

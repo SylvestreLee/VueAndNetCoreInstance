@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{88D63A26-EE59-4EE5-A2CC-557FE46596FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{88D63A26-EE59-4EE5-A2CC-557FE46596FC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp2", "..\ConsoleApp2\ConsoleApp2.csproj", "{9366A53F-B33E-44B6-9EE2-EDA40C59ADCA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfApp1", "..\WpfApp1\WpfApp1.csproj", "{B901A7FC-C23A-4468-AE16-612F06ECDE3A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "委托", "..\..\..\公司培训\自学\.Net Core Console\ConsoleApp3\委托.csproj", "{6280FD88-52C2-4B5B-AD1C-524A52D00036}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lambda表达式", "..\..\..\公司培训\自学\.Net Core Console\Lambda表达式\Lambda表达式.csproj", "{B7062A0E-B6E0-4D09-8F03-0E02AF4F59B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinQ", "..\..\..\公司培训\自学\.Net Core Console\LinQ\LinQ.csproj", "{BC5FEE33-B6D1-4DAF-8001-6DDB135D7F9A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +25,26 @@ Global
 		{88D63A26-EE59-4EE5-A2CC-557FE46596FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88D63A26-EE59-4EE5-A2CC-557FE46596FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88D63A26-EE59-4EE5-A2CC-557FE46596FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9366A53F-B33E-44B6-9EE2-EDA40C59ADCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9366A53F-B33E-44B6-9EE2-EDA40C59ADCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9366A53F-B33E-44B6-9EE2-EDA40C59ADCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9366A53F-B33E-44B6-9EE2-EDA40C59ADCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B901A7FC-C23A-4468-AE16-612F06ECDE3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B901A7FC-C23A-4468-AE16-612F06ECDE3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B901A7FC-C23A-4468-AE16-612F06ECDE3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B901A7FC-C23A-4468-AE16-612F06ECDE3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6280FD88-52C2-4B5B-AD1C-524A52D00036}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6280FD88-52C2-4B5B-AD1C-524A52D00036}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6280FD88-52C2-4B5B-AD1C-524A52D00036}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6280FD88-52C2-4B5B-AD1C-524A52D00036}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7062A0E-B6E0-4D09-8F03-0E02AF4F59B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7062A0E-B6E0-4D09-8F03-0E02AF4F59B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7062A0E-B6E0-4D09-8F03-0E02AF4F59B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7062A0E-B6E0-4D09-8F03-0E02AF4F59B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC5FEE33-B6D1-4DAF-8001-6DDB135D7F9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC5FEE33-B6D1-4DAF-8001-6DDB135D7F9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC5FEE33-B6D1-4DAF-8001-6DDB135D7F9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC5FEE33-B6D1-4DAF-8001-6DDB135D7F9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

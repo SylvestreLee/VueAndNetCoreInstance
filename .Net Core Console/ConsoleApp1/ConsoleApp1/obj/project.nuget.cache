@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uN6xUmnaFcdLU5Zcg5zDsGzA1CcKLNo0RLL1trn6y+M3U58J9KwDJe+du7nepSZoEjk27AEs/N2TwI8ovOT4vg==",
+  "dgSpecHash": "8Js79rlfNabPDgu+14fXC+dlm0GJ9Hikd21CQ/uoSrgH+RAAXgZ2D7RkITrDxwQAKSLVoXnuDxEQgn1lSHy5JA==",
   "success": true,
-  "projectFilePath": "D:\\公司培训\\自学\\.Net Core Console\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+  "projectFilePath": "D:\\VueAndNetCoreInstance\\.Net Core Console\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

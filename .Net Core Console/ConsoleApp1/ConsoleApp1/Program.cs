@@ -1,4 +1,5 @@
 ﻿using System.Text;
+using static System.Threading.Thread;
 
 namespace ConsoleApp1
 {
@@ -12,9 +13,16 @@ namespace ConsoleApp1
             {
                 sb.AppendLine("Hello World!!!");
             }
+            if (File.Exists(fileName))
+            {
+                File.Delete(fileName);
+            }
+            Console.WriteLine(CurrentThread.ManagedThreadId);
             await File.WriteAllTextAsync(fileName, sb.ToString());
+            Console.WriteLine(CurrentThread.ManagedThreadId);
             string res = await File.ReadAllTextAsync(fileName);
-            Console.WriteLine(res);
+            Console.WriteLine(CurrentThread.ManagedThreadId);
+            //Console.WriteLine(res);
             Console.ReadLine();
         }
     }

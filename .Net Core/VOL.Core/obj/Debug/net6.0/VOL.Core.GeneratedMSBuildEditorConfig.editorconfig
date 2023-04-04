@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = VOL.Core
-build_property.ProjectDir = D:\公司培训\自学\Vue.NetCore-master\.Net6版本\VOL.Core\
+build_property.ProjectDir = D:\VueAndNetCoreInstance\.Net Core\VOL.Core\
