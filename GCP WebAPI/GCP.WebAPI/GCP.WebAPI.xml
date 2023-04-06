@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GCP.WebAPI</name>
+    </assembly>
+    <members>
+        <member name="T:GCP.WebAPI.Controllers.StationManage.Controllers.RegulatorController">
+            <summary>
+            创 建：manage
+            日 期：2021-05-31 16:39
+            描 述：控制器类
+            </summary>
+        </member>
+        <member name="T:GCP.WebAPI.Controllers.StationManage.Controllers.StationController">
+            <summary>
+            创 建：manage
+            日 期：2021-05-28 18:36
+            描 述：控制器类
+            </summary>
+        </member>
+        <member name="T:GCP.WebAPI.Controllers.VehicleManage.Controllers.VehicleController">
+            <summary>
+            创 建：manage
+            日 期：2021-06-01 10:12
+            描 述：控制器类
+            </summary>
+        </member>
+        <member name="M:GCP.WebAPI.SystemManage.Controllers.UserController.Login(GCP.Model.Param.SystemManage.LoginParam)">
+            <summary>
+            登陆
+            </summary>
+            <param name="loginParam">登陆参数</param>
+            <returns></returns>
+        </member>
+        <member name="P:GCP.WebAPI.Filter.AuthorizeFilterAttribute.Authorize">
+            <summary>
+            权限字符串，例如 organization:user:view
+            </summary>
+        </member>
+        <member name="M:YiSha.Util.LogHelper.Write(System.String,System.String)">
+            <summary>
+            写日志 异步
+            默认文件：yyyy-MM-dd.log
+            </summary>
+            <param name="logPath">日志目录[默认程序根目录\Log\下添加，故使用相对路径，如：营销任务]</param>
+            <param name="logContent">日志内容 自动附加时间</param>
+        </member>
+        <member name="M:YiSha.Util.LogHelper.Write(System.String,System.String,System.String)">
+            <summary>
+            写日志 异步
+            </summary>
+            <param name="logPath">日志目录</param>
+            <param name="logFileName">日志文件名</param>
+            <param name="logContent">日志内容 自动附加时间</param>
+        </member>
+    </members>
+</doc>

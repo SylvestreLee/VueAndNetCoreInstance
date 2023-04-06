@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GCP.Cache.Factory\GCP.Cache.Factory.csproj" />
+    <ProjectReference Include="..\GCP.Entity\GCP.Entity.csproj" />
+    <ProjectReference Include="..\GCP.Service\GCP.Service.csproj" />
+  </ItemGroup>
+
+</Project>

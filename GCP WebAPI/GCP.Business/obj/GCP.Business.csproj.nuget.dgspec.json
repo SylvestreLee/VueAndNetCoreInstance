@@ -1,0 +1,982 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Business\\GCP.Business.csproj": {}
+  },
+  "projects": {
+    "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Business.Cache\\GCP.Business.Cache.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Business.Cache\\GCP.Business.Cache.csproj",
+        "projectName": "GCP.Business.Cache",
+        "projectPath": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Business.Cache\\GCP.Business.Cache.csproj",
+        "packagesPath": "C:\\Users\\Prince\\.nuget\\packages\\",
+        "outputPath": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Business.Cache\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Prince\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Cache.Factory\\GCP.Cache.Factory.csproj": {
+                "projectPath": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Cache.Factory\\GCP.Cache.Factory.csproj"
+              },
+              "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Entity\\GCP.Entity.csproj": {
+                "projectPath": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Entity\\GCP.Entity.csproj"
+              },
+              "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Service\\GCP.Service.csproj": {
+                "projectPath": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Service\\GCP.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Business\\GCP.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Business\\GCP.Business.csproj",
+        "projectName": "GCP.Business",
+        "projectPath": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Business\\GCP.Business.csproj",
+        "packagesPath": "C:\\Users\\Prince\\.nuget\\packages\\",
+        "outputPath": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Prince\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Business.Cache\\GCP.Business.Cache.csproj": {
+                "projectPath": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Business.Cache\\GCP.Business.Cache.csproj"
+              },
+              "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Cache.Factory\\GCP.Cache.Factory.csproj": {
+                "projectPath": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Cache.Factory\\GCP.Cache.Factory.csproj"
+              },
+              "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Code\\GCP.Code.csproj": {
+                "projectPath": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Code\\GCP.Code.csproj"
+              },
+              "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Entity\\GCP.Entity.csproj": {
+                "projectPath": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Entity\\GCP.Entity.csproj"
+              },
+              "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Service\\GCP.Service.csproj": {
+                "projectPath": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Service\\GCP.Service.csproj"
+              },
+              "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Util\\GCP.Util.csproj": {
+                "projectPath": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Util\\GCP.Util.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Cache.Factory\\GCP.Cache.Factory.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Cache.Factory\\GCP.Cache.Factory.csproj",
+        "projectName": "GCP.Cache.Factory",
+        "projectPath": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Cache.Factory\\GCP.Cache.Factory.csproj",
+        "packagesPath": "C:\\Users\\Prince\\.nuget\\packages\\",
+        "outputPath": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Cache.Factory\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Prince\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Memory\\GCP.Memory.csproj": {
+                "projectPath": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Memory\\GCP.Memory.csproj"
+              },
+              "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Redis\\GCP.Redis.csproj": {
+                "projectPath": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Redis\\GCP.Redis.csproj"
+              },
+              "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Util\\GCP.Util.csproj": {
+                "projectPath": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Util\\GCP.Util.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.CacheInterface\\GCP.CacheInterface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.CacheInterface\\GCP.CacheInterface.csproj",
+        "projectName": "GCP.CacheInterface",
+        "projectPath": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.CacheInterface\\GCP.CacheInterface.csproj",
+        "packagesPath": "C:\\Users\\Prince\\.nuget\\packages\\",
+        "outputPath": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.CacheInterface\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Prince\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Code\\GCP.Code.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Code\\GCP.Code.csproj",
+        "projectName": "GCP.Code",
+        "projectPath": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Code\\GCP.Code.csproj",
+        "packagesPath": "C:\\Users\\Prince\\.nuget\\packages\\",
+        "outputPath": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Code\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Prince\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Cache.Factory\\GCP.Cache.Factory.csproj": {
+                "projectPath": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Cache.Factory\\GCP.Cache.Factory.csproj"
+              },
+              "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Entity\\GCP.Entity.csproj": {
+                "projectPath": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Entity\\GCP.Entity.csproj"
+              },
+              "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Redis\\GCP.Redis.csproj": {
+                "projectPath": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Redis\\GCP.Redis.csproj"
+              },
+              "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Util\\GCP.Util.csproj": {
+                "projectPath": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Util\\GCP.Util.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "FreeSql": {
+              "target": "Package",
+              "version": "[2.5.100, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Entity\\GCP.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Entity\\GCP.Entity.csproj",
+        "projectName": "GCP.Entity",
+        "projectPath": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Entity\\GCP.Entity.csproj",
+        "packagesPath": "C:\\Users\\Prince\\.nuget\\packages\\",
+        "outputPath": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Prince\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Enum\\GCP.Enum.csproj": {
+                "projectPath": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Enum\\GCP.Enum.csproj"
+              },
+              "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Util\\GCP.Util.csproj": {
+                "projectPath": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Util\\GCP.Util.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "FreeSql": {
+              "target": "Package",
+              "version": "[2.5.100, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Enum\\GCP.Enum.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Enum\\GCP.Enum.csproj",
+        "projectName": "GCP.Enum",
+        "projectPath": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Enum\\GCP.Enum.csproj",
+        "packagesPath": "C:\\Users\\Prince\\.nuget\\packages\\",
+        "outputPath": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Enum\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Prince\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Memory\\GCP.Memory.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Memory\\GCP.Memory.csproj",
+        "projectName": "GCP.Memory",
+        "projectPath": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Memory\\GCP.Memory.csproj",
+        "packagesPath": "C:\\Users\\Prince\\.nuget\\packages\\",
+        "outputPath": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Memory\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Prince\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.CacheInterface\\GCP.CacheInterface.csproj": {
+                "projectPath": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.CacheInterface\\GCP.CacheInterface.csproj"
+              },
+              "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Util\\GCP.Util.csproj": {
+                "projectPath": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Util\\GCP.Util.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Extensions.Caching.Memory": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Model\\GCP.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Model\\GCP.Model.csproj",
+        "projectName": "GCP.Model",
+        "projectPath": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Model\\GCP.Model.csproj",
+        "packagesPath": "C:\\Users\\Prince\\.nuget\\packages\\",
+        "outputPath": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Prince\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Entity\\GCP.Entity.csproj": {
+                "projectPath": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Entity\\GCP.Entity.csproj"
+              },
+              "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Util\\GCP.Util.csproj": {
+                "projectPath": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Util\\GCP.Util.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Redis\\GCP.Redis.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Redis\\GCP.Redis.csproj",
+        "projectName": "GCP.Redis",
+        "projectPath": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Redis\\GCP.Redis.csproj",
+        "packagesPath": "C:\\Users\\Prince\\.nuget\\packages\\",
+        "outputPath": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Redis\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Prince\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.CacheInterface\\GCP.CacheInterface.csproj": {
+                "projectPath": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.CacheInterface\\GCP.CacheInterface.csproj"
+              },
+              "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Util\\GCP.Util.csproj": {
+                "projectPath": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Util\\GCP.Util.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.0.600, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Repository\\GCP.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Repository\\GCP.Repository.csproj",
+        "projectName": "GCP.Repository",
+        "projectPath": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Repository\\GCP.Repository.csproj",
+        "packagesPath": "C:\\Users\\Prince\\.nuget\\packages\\",
+        "outputPath": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Prince\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Util\\GCP.Util.csproj": {
+                "projectPath": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Util\\GCP.Util.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "FreeSql.Provider.PostgreSQL": {
+              "target": "Package",
+              "version": "[3.0.100, )"
+            },
+            "FreeSql.Provider.SqlServer": {
+              "target": "Package",
+              "version": "[2.5.100, )"
+            },
+            "FreeSql.Repository": {
+              "target": "Package",
+              "version": "[2.5.100, )"
+            },
+            "IdleBus": {
+              "target": "Package",
+              "version": "[1.5.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Service\\GCP.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Service\\GCP.Service.csproj",
+        "projectName": "GCP.Service",
+        "projectPath": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Service\\GCP.Service.csproj",
+        "packagesPath": "C:\\Users\\Prince\\.nuget\\packages\\",
+        "outputPath": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Prince\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Code\\GCP.Code.csproj": {
+                "projectPath": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Code\\GCP.Code.csproj"
+              },
+              "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Entity\\GCP.Entity.csproj": {
+                "projectPath": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Entity\\GCP.Entity.csproj"
+              },
+              "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Model\\GCP.Model.csproj": {
+                "projectPath": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Model\\GCP.Model.csproj"
+              },
+              "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Repository\\GCP.Repository.csproj": {
+                "projectPath": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Repository\\GCP.Repository.csproj"
+              },
+              "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Util\\GCP.Util.csproj": {
+                "projectPath": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Util\\GCP.Util.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "System.ServiceModel.Duplex": {
+              "target": "Package",
+              "version": "[4.4.*, )"
+            },
+            "System.ServiceModel.Http": {
+              "target": "Package",
+              "version": "[4.4.*, )"
+            },
+            "System.ServiceModel.NetTcp": {
+              "target": "Package",
+              "version": "[4.4.*, )"
+            },
+            "System.ServiceModel.Security": {
+              "target": "Package",
+              "version": "[4.4.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Util\\GCP.Util.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Util\\GCP.Util.csproj",
+        "projectName": "GCP.Util",
+        "projectPath": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Util\\GCP.Util.csproj",
+        "packagesPath": "C:\\Users\\Prince\\.nuget\\packages\\",
+        "outputPath": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Util\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Prince\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Enum\\GCP.Enum.csproj": {
+                "projectPath": "D:\\VueAndNetCoreInstance\\GCP WebAPI\\GCP.Enum\\GCP.Enum.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[4.12.0, )"
+            },
+            "NPOI": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

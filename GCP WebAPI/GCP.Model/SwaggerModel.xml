@@ -1,0 +1,459 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GCP.Model</name>
+    </assembly>
+    <members>
+        <member name="P:GCP.Model.Param.DateTimeParam.StartTime">
+            <summary>
+            搜索条件开始时间
+            </summary>
+        </member>
+        <member name="P:GCP.Model.Param.DateTimeParam.EndTime">
+            <summary>
+            搜索条件结束时间
+            </summary>
+        </member>
+        <member name="P:GCP.Model.Param.IDParam.ID">
+            <summary>
+            所有表的主键
+            long返回到前端js的时候，会丢失精度，所以转成字符串
+            </summary>
+        </member>
+        <member name="T:GCP.Model.Param.RootManage.EndInspectParam">
+            <summary>
+            创 建：ycz
+            日 期：2021-08-23 13:41
+            描 述：实体查询类
+            </summary>
+        </member>
+        <member name="T:GCP.Model.Param.RootManage.InsResultAuditListParam">
+            <summary>
+            创 建：ycz
+            日 期：2021-08-23 15:02
+            描 述：实体查询类
+            </summary>
+        </member>
+        <member name="T:GCP.Model.Param.StationManage.CalibrateListParam">
+            <summary>
+            创 建：sht
+            日 期：2021-06-21 16:46
+            描 述：实体查询类
+            </summary>
+        </member>
+        <member name="T:GCP.Model.Param.StationManage.CalibrateResultListParam">
+            <summary>
+            创 建：sht
+            日 期：2021-06-21 16:56
+            描 述：实体查询类
+            </summary>
+        </member>
+        <member name="P:GCP.Model.Param.StationManage.CalibrateResultListParam.DeviceType">
+            <summary>
+            设备类型
+            </summary>
+        </member>
+        <member name="P:GCP.Model.Param.StationManage.CalibrateResultListParam.StationTreeValue">
+            <summary>
+            检测站下拉树查询条件
+            </summary>
+        </member>
+        <member name="P:GCP.Model.Param.StationManage.CalibrateResultListParam.CalibrateType">
+            <summary>
+            标定类型
+            </summary>
+        </member>
+        <member name="T:GCP.Model.Param.StationManage.CameraListParam">
+            <summary>
+            创 建：sht
+            日 期：2021-06-16 14:25
+            描 述：实体查询类
+            </summary>
+        </member>
+        <member name="P:GCP.Model.Param.StationManage.CameraListParam.StationTreeValue">
+            <summary>
+            检测站下拉树查询条件
+            </summary>
+        </member>
+        <member name="P:GCP.Model.Param.StationManage.CameraListParam.ChannelCodingID">
+            <summary>
+            编码
+            </summary>
+        </member>
+        <member name="P:GCP.Model.Param.StationManage.CameraListParam.VideoServerID">
+            <summary>
+            硬盘录像机ID
+            </summary>
+        </member>
+        <member name="P:GCP.Model.Param.StationManage.CameraListParam.StartChannelID">
+            <summary>
+            开始视频通道ID
+            </summary>
+        </member>
+        <member name="P:GCP.Model.Param.StationManage.CameraListParam.EndChannelID">
+            <summary>
+            结束视频通道ID
+            </summary>
+        </member>
+        <member name="T:GCP.Model.Param.StationManage.DevicesListParam">
+            <summary>
+            创 建：sht
+            日 期：2021-06-16 14:24
+            描 述：实体查询类
+            </summary>
+        </member>
+        <member name="P:GCP.Model.Param.StationManage.DevicesListParam.StationTreeValue">
+            <summary>
+            检测站下拉树查询条件
+            </summary>
+        </member>
+        <member name="P:GCP.Model.Param.StationManage.DevicesListParam.DeviceType">
+            <summary>
+            设备类型
+            </summary>
+        </member>
+        <member name="P:GCP.Model.Param.StationManage.DevicesListParam.LineID">
+            <summary>
+            所属检测线
+            </summary>
+        </member>
+        <member name="T:GCP.Model.Param.StationManage.DevicesWJListParam">
+            <summary>
+            创 建：sht
+            日 期：2021-06-22 09:52
+            描 述：实体查询类
+            </summary>
+        </member>
+        <member name="P:GCP.Model.Param.StationManage.DevicesWJListParam.StationTreeValue">
+            <summary>
+            检测站下拉树查询条件
+            </summary>
+        </member>
+        <member name="T:GCP.Model.Param.StationManage.InspectionListParamListListParam">
+            <summary>
+            创 建：sht
+            日 期：2021-06-22 10:02
+            描 述：实体查询类
+            </summary>
+        </member>
+        <member name="P:GCP.Model.Param.StationManage.InspectionListParamListListParam.ParamType">
+            <summary>
+            不可空*值类型
+            </summary>
+        </member>
+        <member name="T:GCP.Model.Param.StationManage.InspectionListParamRemoteListParam">
+            <summary>
+            创 建：sht
+            日 期：2021-06-22 10:03
+            描 述：实体查询类
+            </summary>
+        </member>
+        <member name="P:GCP.Model.Param.StationManage.InspectionListParamRemoteListParam.Name">
+            <summary>
+            不可空*值名称
+            </summary>
+        </member>
+        <member name="T:GCP.Model.Param.StationManage.LineListParam">
+            <summary>
+            创 建：sht
+            日 期：2021-06-16 14:23
+            描 述：实体查询类
+            </summary>
+        </member>
+        <member name="P:GCP.Model.Param.StationManage.LineListParam.StationTreeValue">
+            <summary>
+            检测站下拉树查询条件
+            </summary>
+        </member>
+        <member name="T:GCP.Model.Param.StationManage.ProviderListParam">
+            <summary>
+            创 建：manage
+            日 期：2021-06-02 16:08
+            描 述：实体查询类
+            </summary>
+        </member>
+        <member name="T:GCP.Model.Param.StationManage.RealVideoListParam">
+            <summary>
+            创 建：manage
+            日 期：2021-07-27 09:10
+            描 述：实体查询类
+            </summary>
+        </member>
+        <member name="P:GCP.Model.Param.StationManage.RealVideoListParam.VideoServerID">
+            <summary>
+            硬盘录像机ID
+            </summary>
+        </member>
+        <member name="P:GCP.Model.Param.StationManage.RealVideoListParam.StartChannelID">
+            <summary>
+            开始视频通道ID
+            </summary>
+        </member>
+        <member name="P:GCP.Model.Param.StationManage.RealVideoListParam.EndChannelID">
+            <summary>
+            结束视频通道ID
+            </summary>
+        </member>
+        <member name="T:GCP.Model.Param.StationManage.RegulatorListParam">
+            <summary>
+            创 建：manage
+            日 期：2021-05-31 16:39
+            描 述：实体查询类
+            </summary>
+        </member>
+        <member name="P:GCP.Model.Param.StationManage.RegulatorListParam.ID">
+            <summary>
+            ID
+            </summary>
+        </member>
+        <member name="P:GCP.Model.Param.StationManage.RegulatorListParam.Name">
+            <summary>
+            对象分组名称
+            </summary>
+        </member>
+        <member name="P:GCP.Model.Param.StationManage.RegulatorListParam.AreaCode">
+            <summary>
+            辖区编号
+            </summary>
+        </member>
+        <member name="T:GCP.Model.Param.StationManage.SelfTestResultListParam">
+            <summary>
+            创 建：sht
+            日 期：2021-06-21 15:10
+            描 述：实体查询类
+            </summary>
+        </member>
+        <member name="P:GCP.Model.Param.StationManage.SelfTestResultListParam.DeviceType">
+            <summary>
+            设备类型
+            </summary>
+        </member>
+        <member name="P:GCP.Model.Param.StationManage.SelfTestResultListParam.StationTreeValue">
+            <summary>
+            检测站下拉树查询条件
+            </summary>
+        </member>
+        <member name="P:GCP.Model.Param.StationManage.SelfTestResultListParam.SelfTestType">
+            <summary>
+            自检类型
+            </summary>
+        </member>
+        <member name="T:GCP.Model.Param.StationManage.StationListParam">
+            <summary>
+            创 建：manage
+            日 期：2021-05-28 18:36
+            描 述：实体查询类
+            </summary>
+        </member>
+        <member name="P:GCP.Model.Param.StationManage.StationListParam.Code">
+            <summary>
+            检测站编号
+            </summary>
+        </member>
+        <member name="P:GCP.Model.Param.StationManage.StationListParam.AreaCode">
+            <summary>
+            所属辖区
+            </summary>
+        </member>
+        <member name="P:GCP.Model.Param.StationManage.StationListParam.ObjectAreaCode">
+            <summary>
+            权限辖区
+            </summary>
+        </member>
+        <member name="T:GCP.Model.Param.StationManage.VideoServerListParam">
+            <summary>
+            创 建：sht
+            日 期：2021-06-16 14:25
+            描 述：实体查询类
+            </summary>
+        </member>
+        <member name="P:GCP.Model.Param.StationManage.VideoServerListParam.StationTreeValue">
+            <summary>
+            检测站下拉树查询条件
+            </summary>
+        </member>
+        <member name="T:GCP.Model.Param.StationManage.VisualInspectionChannelListParam">
+            <summary>
+            创 建：sht
+            日 期：2021-06-22 16:33
+            描 述：实体查询类
+            </summary>
+        </member>
+        <member name="P:GCP.Model.Param.StationManage.VisualInspectionChannelListParam.StationTreeValue">
+            <summary>
+            检测站下拉树查询条件
+            </summary>
+        </member>
+        <member name="T:GCP.Model.Param.SyncManage.SyncTableListParam">
+            <summary>
+            创 建：manage
+            日 期：2022-03-02 15:48
+            描 述：实体查询类
+            </summary>
+        </member>
+        <member name="T:GCP.Model.Param.SystemManage.LogOperateEPBListParam">
+            <summary>
+            创 建：sht
+            日 期：2021-08-02 10:58
+            描 述：实体查询类
+            </summary>
+        </member>
+        <member name="P:GCP.Model.Param.SystemManage.LogOperateEPBListParam.UserName">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:GCP.Model.Param.SystemManage.LogOperateEPBListParam.TypeID">
+            <summary>
+            日志类型
+            </summary>
+        </member>
+        <member name="P:GCP.Model.Param.SystemManage.LogLoginListParam.UserName">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:GCP.Model.Param.SystemManage.LogLoginListParam.LogStatus">
+            <summary>
+            日志状态
+            </summary>
+        </member>
+        <member name="P:GCP.Model.Param.SystemManage.LogLoginListParam.IpAddress">
+            <summary>
+            ip地址
+            </summary>
+        </member>
+        <member name="P:GCP.Model.Param.SystemManage.LogOperateListParam.UserName">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:GCP.Model.Param.SystemManage.LogOperateListParam.ExecuteUrl">
+            <summary>
+            执行地址
+            </summary>
+        </member>
+        <member name="P:GCP.Model.Param.SystemManage.LogOperateListParam.ExecuteParam">
+            <summary>
+            请求参数
+            </summary>
+        </member>
+        <member name="T:GCP.Model.Param.SystemManage.NoticeListParam">
+            <summary>
+            创 建：sht
+            日 期：2021-06-09 09:57
+            描 述：实体查询类
+            </summary>
+        </member>
+        <member name="P:GCP.Model.Param.SystemManage.NoticeListParam.Name">
+            <summary>
+            通知公告名称
+            </summary>
+        </member>
+        <member name="P:GCP.Model.Param.SystemManage.RoleListParam.RoleName">
+            <summary>
+            角色名称
+            </summary>
+        </member>
+        <member name="P:GCP.Model.Param.SystemManage.RoleListParam.RoleIds">
+            <summary>
+            多个角色Id
+            </summary>
+        </member>
+        <member name="P:GCP.Model.Param.SystemManage.UserListParam.UserName">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:GCP.Model.Param.SystemManage.UserListParam.UserIds">
+            <summary>
+            多个用户ID
+            </summary>
+        </member>
+        <member name="P:GCP.Model.Param.SystemManage.UserListParam.UserOrg">
+            <summary>
+            单选的用户所属单位
+            </summary>
+        </member>
+        <member name="P:GCP.Model.Param.SystemManage.UserListParam.OrganizationType">
+            <summary>
+            给检测站人员使用
+            </summary>
+        </member>
+        <member name="P:GCP.Model.Param.SystemManage.ChangePasswordParam.Id">
+            <summary>
+            用户ID
+            </summary>
+        </member>
+        <member name="P:GCP.Model.Param.SystemManage.ChangePasswordParam.Password">
+            <summary>
+            旧密码
+            </summary>
+        </member>
+        <member name="P:GCP.Model.Param.SystemManage.ChangePasswordParam.NewPassword">
+            <summary>
+            新密码
+            </summary>
+        </member>
+        <member name="P:GCP.Model.Param.SystemManage.LoginParam.userName">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:GCP.Model.Param.SystemManage.LoginParam.password">
+            <summary>
+            密码
+            </summary>
+        </member>
+        <member name="P:GCP.Model.Result.MenuAuthorizeInfo.AuthorizeId">
+            <summary>
+            用户Id或者角色Id
+            </summary>
+        </member>
+        <member name="P:GCP.Model.Result.MenuAuthorizeInfo.AuthorizeType">
+            <summary>
+             用户或者角色
+            </summary>
+        </member>
+        <member name="P:GCP.Model.Result.MenuAuthorizeInfo.Authorize">
+            <summary>
+            权限标识
+            </summary>
+        </member>
+        <member name="P:GCP.Model.Result.MetaInfo.Title">
+            <summary>
+            标题
+            </summary>
+        </member>
+        <member name="P:GCP.Model.Result.MetaInfo.Icon">
+            <summary>
+            图标
+            </summary>
+        </member>
+        <member name="P:GCP.Model.Result.PageInfo.Component">
+            <summary>
+            路径
+            </summary>
+        </member>
+        <member name="P:GCP.Model.Result.SystemManage.TableInfo.Id">
+            <summary>
+            表的Id
+            </summary>
+        </member>
+        <member name="P:GCP.Model.Result.SystemManage.TableInfo.TableName">
+            <summary>
+            表名
+            </summary>
+        </member>
+        <member name="P:GCP.Model.Result.SystemManage.TableInfo.TableKeyName">
+            <summary>
+            主键名
+            </summary>
+        </member>
+        <member name="P:GCP.Model.Result.SystemManage.TableInfo.TableKey">
+            <summary>
+            主键
+            </summary>
+        </member>
+    </members>
+</doc>

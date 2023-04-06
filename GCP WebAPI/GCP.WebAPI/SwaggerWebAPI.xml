@@ -1,0 +1,489 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GCP.WebAPI</name>
+    </assembly>
+    <members>
+        <member name="T:GCP.WebAPI.Controllers.RootManage.Controllers.RootController">
+            <summary>
+            创 建：ycz
+            日 期：2021-08-23 13:41
+            描 述：控制器类
+            </summary>
+        </member>
+        <member name="M:GCP.WebAPI.Controllers.RootManage.Controllers.RootController.DownloadInspectionID(System.Int64)">
+            <summary>
+            获取需要下载的检测记录流水号
+            </summary>
+            <param name="StationID">检测站ID</param>
+            <returns></returns> 
+        </member>
+        <member name="M:GCP.WebAPI.Controllers.RootManage.Controllers.RootController.deleteInspectInfo(System.String)">
+            <summary> 
+            删除临时表信息
+            </summary> 
+            <param name="InspectionID">检测流水号</param> 
+            <returns></returns> 
+        </member>
+        <member name="M:GCP.WebAPI.Controllers.RootManage.Controllers.RootController.DownloadInspecttionInfo(System.Int64,System.String,System.Nullable{System.Int64})">
+            <summary>
+            下载检测记录详细信息(单条)
+            </summary>
+            <param name="StationID">检测站ID</param>
+            <param name="InspectionID">检测流水号ID</param>
+            <param name="UpdateInsRAID">车辆审核ID</param>
+            <returns></returns> 
+        </member>
+        <member name="M:GCP.WebAPI.Controllers.RootManage.Controllers.RootController.AbortInspect(System.Int64,System.String,System.Int32)">
+            <summary>
+            通知服务器该车辆取消检测
+            </summary>
+            <param name="InspectionID">检测流水号</param>
+            <param name="Reason">取消报检原因
+            1	送检人放弃检测
+            2	录入的车辆信息或检测参数有误
+            3	检测线故障
+            4   放弃检测-底盘号不正确（加载减速工况法专用）
+            5   预检失败（加载减速工况法专用，Memo中请注明失败的项目）
+            </param>
+            <param name="StationID">检测站ID</param>
+        </member>
+        <member name="M:GCP.WebAPI.Controllers.RootManage.Controllers.RootController.BeginInspect(System.Int64,System.Int64,System.String)">
+            <summary>
+             通知服务器车辆开检，返回允许或禁止
+            </summary>
+            <param name="StationID">检测站ID</param>
+            <param name="LineID">检测线ID</param>
+            <param name="InspectionID">流水号</param>
+        </member>
+        <member name="M:GCP.WebAPI.Controllers.RootManage.Controllers.RootController.StopInspect(System.Int64,System.String,System.String)">
+            <summary>
+            通知服务器车辆已中止（暂停）检测。
+            </summary>
+            <param name="StationID">检测站ID</param>
+            <param name="InspectID">检测记录流水号</param>
+            <param name="Memo">备注</param>
+        </member>
+        <member name="M:GCP.WebAPI.Controllers.RootManage.Controllers.RootController.EndInspect(GCP.Model.Param.RootManage.EndInspectParam)">
+            <summary>
+            
+            </summary>
+            <param name="param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GCP.WebAPI.Controllers.RootManage.Controllers.RootController.SyncTime">
+            <summary>
+            获取系统时间
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GCP.WebAPI.Controllers.RootManage.Controllers.RootController.GetsysParams(System.Int64)">
+            <summary>
+            获取系统参数
+            </summary>
+            <param name="StationID">检测站ID</param>>
+            <returns></returns>
+        </member>
+        <member name="M:GCP.WebAPI.Controllers.RootManage.Controllers.RootController.UnlockLines">
+            <summary>
+            解锁（所有机构）检测线和相应的设备
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GCP.WebAPI.Controllers.RootManage.Controllers.RootController.SetDaily">
+            <summary>
+            每日检查合格率
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:GCP.WebAPI.Controllers.SyncManage.SyncController">
+            <summary>
+            创 建：ycz
+            日 期：2021-08-23 13:41
+            描 述：控制器类
+            </summary>
+        </member>
+        <member name="M:GCP.WebAPI.Controllers.SyncManage.SyncController.ConnectionInfo">
+            <summary>
+            当前Ip地址是否在授权范围内
+            </summary>
+            <returns>StationID</returns>
+        </member>
+        <member name="T:GCP.WebAPI.Controllers.SyncManage.Controllers.SyncTableController">
+            <summary>
+            创 建：manage
+            日 期：2022-03-02 15:48
+            描 述：控制器类
+            </summary>
+        </member>
+        <member name="M:GCP.WebAPI.Controllers.SyncManage.Controllers.SyncTableController.GetDownTableInfo">
+            <summary> 
+            获取同步表列表 
+            </summary>        
+            <returns></returns> 
+        </member>
+        <member name="M:GCP.WebAPI.Controllers.SystemManage.DbFirstController.GetTable(System.String,System.String)">
+            <summary>
+            【代码生成器】获取表信息
+            </summary>
+            <param name="ManageName"></param>
+            <param name="TableName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GCP.WebAPI.Controllers.SystemManage.DbFirstController.GetTableListJson(System.String)">
+            <summary>
+            【代码生成器】获取表列表
+            </summary>
+            <param name="tableName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GCP.WebAPI.Controllers.SystemManage.DbFirstController.GetTablePageListJson(System.String,GCP.Util.Model.Pagination)">
+            <summary>
+            【代码生成器】获取表分页
+            </summary>
+            <param name="tableName"></param>
+            <param name="pagination"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GCP.WebAPI.Controllers.SystemManage.DbFirstController.CodeAutoGenerateJson(System.String,System.String,System.String,System.Collections.Generic.List{System.Int32})">
+            <summary>
+            【代码生成器】根据表名称自动生成代码
+            </summary>
+            <param name="TableName">数据库表名称</param>
+            <param name="MenuName">前台显示的菜单名称</param>
+            <param name="OutputModule">输出到的文件夹，后缀一定要有Manage</param>
+            <param name="BtnList">需要自动生成的按钮权限，枚举值参考GCEnum.CommonEnum.OperateButtonList</param>
+            <returns></returns>
+        </member>
+        <member name="M:GCP.WebAPI.Controllers.SystemManage.DbFirstController.EmptyCodeAutoGenerateJson(System.String,System.String,System.String,System.Collections.Generic.List{System.Int32})">
+            <summary>
+            【代码生成器】根据类名称自动生成不操作数据库的代码
+            </summary>
+            <param name="ClassName">类名称</param>
+            <param name="MenuName">前台显示的菜单名称</param>
+            <param name="OutputModule">输出到的文件夹，后缀一定要有Manage</param>
+            <param name="BtnList">需要自动生成的按钮权限，枚举值参考GCEnum.CommonEnum.OperateButtonList</param>
+            <returns></returns>
+        </member>
+        <member name="M:GCP.WebAPI.Controllers.SystemManage.DbFirstController.EntityGenerateJson(System.String,System.String)">
+            <summary>
+            【代码生成器】根据表名称自动生成/更新实体类
+            </summary>
+            <param name="TableName">数据库表名称</param>
+            <param name="OutputModule">输出到的文件夹，后缀一定要有Manage</param>
+            <returns></returns>
+        </member>
+        <member name="M:GCP.WebAPI.Controllers.SystemManage.LogOperateController.GetPageListJson(GCP.Model.Param.SystemManage.LogOperateListParam,GCP.Util.Model.Pagination)">
+            <summary>
+            获取日志分页列表
+            </summary>
+            <param name="param"></param>
+            <param name="pagination"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GCP.WebAPI.Controllers.SystemManage.LogOperateController.GetFormJson(System.Int64)">
+            <summary>
+            根据id获取单条日志信息
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:GCP.WebAPI.Controllers.SystemManage.Controllers.LogOperateEPBController">
+            <summary>
+            创 建：sht
+            日 期：2021-08-02 10:58
+            描 述：控制器类
+            </summary>
+        </member>
+        <member name="M:GCP.WebAPI.Controllers.SystemManage.Controllers.LogOperateEPBController.GetPageListJson(GCP.Model.Param.SystemManage.LogOperateEPBListParam,GCP.Util.Model.Pagination)">
+            <summary>
+            获取日志分页列表
+            </summary>
+            <param name="param"></param>
+            <param name="pagination"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GCP.WebAPI.Controllers.SystemManage.MenuController.GetInfo">
+            <summary>
+            获取用户所属角色相关信息，【初始化】
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GCP.WebAPI.Controllers.SystemManage.MenuController.GetRouters">
+            <summary>
+            获取路由菜单信息【初始化】
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GCP.WebAPI.Controllers.SystemManage.MenuController.GetEtreeList">
+            <summary>
+            获取菜单ElementTree结构【菜单查询】
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GCP.WebAPI.Controllers.SystemManage.MenuController.GetFormJson(System.Int64)">
+            <summary>
+            获取编辑页面
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GCP.WebAPI.Controllers.SystemManage.MenuController.SaveFormJson(GCP.Entity.SystemManage.SysMenuEntity)">
+            <summary>
+            提交和更新菜单数据
+            </summary>
+            <param name="entity">菜单实体对象</param>
+            <returns></returns>
+        </member>
+        <member name="M:GCP.WebAPI.Controllers.SystemManage.MenuController.DeleteFormJson(System.String)">
+            <summary>
+            根据多个id删除内容
+            </summary>
+            <param name="ids">多个id，英文逗号隔开</param>
+            <returns></returns>
+        </member>
+        <member name="M:GCP.WebAPI.Controllers.SystemManage.RoleController.GetEnum">
+            <summary>
+            获取监管平台角色下拉枚举
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GCP.WebAPI.Controllers.SystemManage.RoleController.GetLoginEnum">
+            <summary>
+            获取登录系统角色下拉枚举
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GCP.WebAPI.Controllers.SystemManage.RoleController.GetListJson(GCP.Model.Param.SystemManage.RoleListParam)">
+            <summary>
+            获取监管平台角色列表
+            </summary>
+            <param name="param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GCP.WebAPI.Controllers.SystemManage.RoleController.GetLoginListJson(GCP.Model.Param.SystemManage.RoleListParam)">
+            <summary>
+            获取登录系统角色列表
+            </summary>
+            <param name="param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GCP.WebAPI.Controllers.SystemManage.RoleController.GetPageListJson(GCP.Model.Param.SystemManage.RoleListParam,GCP.Util.Model.Pagination)">
+            <summary>
+            获取监管平台角色分页列表
+            </summary>
+            <param name="param"></param>
+            <param name="pagination"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GCP.WebAPI.Controllers.SystemManage.RoleController.GetLoginPageListJson(GCP.Model.Param.SystemManage.RoleListParam,GCP.Util.Model.Pagination)">
+            <summary>
+            获取登录系统角色分页列表
+            </summary>
+            <param name="param"></param>
+            <param name="pagination"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GCP.WebAPI.Controllers.SystemManage.RoleController.GetFormJson(System.Int64)">
+            <summary>
+            根据ID获取单个角色信息
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GCP.WebAPI.Controllers.SystemManage.RoleController.GetRoleName(GCP.Model.Param.SystemManage.RoleListParam)">
+            <summary>
+            根据多个ID，返回角色名称
+            </summary>
+            <param name="param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GCP.WebAPI.Controllers.SystemManage.RoleController.GetMaxSortJson">
+            <summary>
+            获取最大的角色排序，用来默认显示在新增页面上
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GCP.WebAPI.Controllers.SystemManage.RoleController.SaveFormJson(GCP.Entity.SystemManage.SysRoleEntity)">
+            <summary>
+            提交监管平台角色
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GCP.WebAPI.Controllers.SystemManage.RoleController.SaveLoginFormJson(GCP.Entity.SystemManage.SysRoleEntity)">
+            <summary>
+            提交登录系统角色
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GCP.WebAPI.Controllers.SystemManage.RoleController.DeleteFormJson(System.String)">
+            <summary>
+            删除角色
+            </summary>
+            <param name="ids"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GCP.WebAPI.Controllers.SystemManage.StationUserController.GetListJson(GCP.Model.Param.SystemManage.UserListParam)">
+            <summary>
+            获取用户列表
+            </summary>
+            <param name="param">查询条件</param>
+            <returns></returns>
+        </member>
+        <member name="M:GCP.WebAPI.Controllers.SystemManage.StationUserController.GetPageListJson(GCP.Model.Param.SystemManage.UserListParam,GCP.Util.Model.Pagination)">
+            <summary>
+            获取用户分页列表
+            </summary>
+            <param name="param"></param>
+            <param name="pagination"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GCP.WebAPI.Controllers.SystemManage.StationUserController.GetPageLoginListJson(System.String,GCP.Util.Model.Pagination)">
+            <summary>
+            获取用户分页列表
+            </summary>
+            <param name="param"></param>
+            <param name="pagination"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GCP.WebAPI.Controllers.SystemManage.StationUserController.GetFormJson(System.Int64)">
+            <summary>
+            根据id获取单条用户信息
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GCP.WebAPI.Controllers.SystemManage.StationUserController.ExportUserJson(GCP.Model.Param.SystemManage.UserListParam)">
+            <summary>
+            导出用户信息
+            </summary>
+            <param name="param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GCP.WebAPI.Controllers.SystemManage.StationUserController.SaveFormJson(GCP.Entity.SystemManage.PersonEntity)">
+            <summary>
+            提交（监管平台）数据
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GCP.WebAPI.Controllers.SystemManage.StationUserController.SaveLoginFormJson(GCP.Entity.SystemManage.PersonEntity)">
+            <summary>
+            提交(登录系统)数据
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GCP.WebAPI.Controllers.SystemManage.StationUserController.SetUserStatus(System.Int64,System.Int64)">
+            <summary>
+            更改用户状态
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GCP.WebAPI.Controllers.SystemManage.StationUserController.DeleteFormJson(System.String)">
+            <summary>
+            删除数据
+            </summary>
+            <param name="ids"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GCP.WebAPI.SystemManage.Controllers.UserController.GetPageListJson(GCP.Model.Param.SystemManage.UserListParam,GCP.Util.Model.Pagination)">
+            <summary>
+            获取用户分页列表
+            </summary>
+            <param name="param"></param>
+            <param name="pagination"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GCP.WebAPI.SystemManage.Controllers.UserController.GetFormJson(System.Int64)">
+            <summary>
+            根据id获取单条用户信息
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GCP.WebAPI.SystemManage.Controllers.UserController.ExportUserJson(GCP.Model.Param.SystemManage.UserListParam)">
+            <summary>
+            导出用户信息
+            </summary>
+            <param name="param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GCP.WebAPI.SystemManage.Controllers.UserController.Login(GCP.Model.Param.SystemManage.LoginParam)">
+            <summary>
+            登陆
+            </summary>
+            <param name="loginParam">登陆参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:GCP.WebAPI.SystemManage.Controllers.UserController.LoginOff">
+            <summary>
+            登出
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GCP.WebAPI.SystemManage.Controllers.UserController.GetUserAuthorizeJson">
+            <summary>
+            获取用户权限
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GCP.WebAPI.SystemManage.Controllers.UserController.SaveFormJson(GCP.Entity.SystemManage.PersonEntity)">
+            <summary>
+            提交数据
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GCP.WebAPI.SystemManage.Controllers.UserController.SetUserStatus(System.Int64,System.Int64)">
+            <summary>
+            更改用户状态
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GCP.WebAPI.SystemManage.Controllers.UserController.DeleteFormJson(System.String)">
+            <summary>
+            删除数据
+            </summary>
+            <param name="ids"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GCP.WebAPI.SystemManage.Controllers.UserController.ResetPasswordJson(GCP.Entity.SystemManage.PersonEntity)">
+            <summary>
+            重置用户密码
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GCP.WebAPI.SystemManage.Controllers.UserController.ChangePasswordJson(GCP.Model.Param.SystemManage.ChangePasswordParam)">
+            <summary>
+            用户自己更改密码
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="P:GCP.WebAPI.Filter.AuthorizeFilterAttribute.Authorize">
+            <summary>
+            权限字符串，例如 organization:user:view
+            </summary>
+        </member>
+        <member name="M:YiSha.Util.LogHelper.Write(System.String,System.String)">
+            <summary>
+            写日志 异步
+            默认文件：yyyy-MM-dd.log
+            </summary>
+            <param name="logPath">日志目录[默认程序根目录\Log\下添加，故使用相对路径，如：营销任务]</param>
+            <param name="logContent">日志内容 自动附加时间</param>
+        </member>
+        <member name="M:YiSha.Util.LogHelper.Write(System.String,System.String,System.String)">
+            <summary>
+            写日志 异步
+            </summary>
+            <param name="logPath">日志目录</param>
+            <param name="logFileName">日志文件名</param>
+            <param name="logContent">日志内容 自动附加时间</param>
+        </member>
+    </members>
+</doc>

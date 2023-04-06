@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Nullable>annotations</Nullable>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <NoWarn>1701;1702;1591</NoWarn>
+    <OutputPath></OutputPath>
+    <DocumentationFile></DocumentationFile>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath></OutputPath>
+    <DocumentationFile></DocumentationFile>
+    <NoWarn>1701;1702;1591</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Root1Manage\**" />
+    <EmbeddedResource Remove="Root1Manage\**" />
+    <None Remove="Root1Manage\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FreeSql" Version="2.5.100" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GCP.Enum\GCP.Enum.csproj" />
+    <ProjectReference Include="..\GCP.Util\GCP.Util.csproj" />
+  </ItemGroup>
+
+</Project>
