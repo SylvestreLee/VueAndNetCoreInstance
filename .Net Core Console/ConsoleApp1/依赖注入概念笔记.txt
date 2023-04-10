@@ -1,0 +1,54 @@
+*依赖注入：Dependency Injection  简称DI  
+*控制反转：Inversion of Control     简称IOC
+*依赖注入是控制反转思想的实现方式之一(主要方式)。简化了模块的组装过程，降低模块之间的耦合度。
+控制反转的目的：
+	之前是如何去创建一个对象，现在是我要某个对象，你new一下给我。
+实现方式：
+1）服务定位器（ServiceLocator）
+2）依赖注入(Dependency Injection)
+
+Demo代码
+	服务定位器：
+		通过调用服务定位器，告诉定位器我需要一个什么样的类，让定位器创建后返回给我。
+		IDbConnection conn = ServiceLocator.GetService<IDbConnection>();
+	依赖注入：
+		Class Demo
+		{
+			//此处声明之后，框架给Conn这个变量自动赋值实体，不需要有要的这么一个动作
+			public IDbConnection Conn {get;set;}
+			public void InsertDB()
+			{
+				IDbConnection cmd  = Conn.CreateCommand();
+			}
+		}
+
+关于依赖注入的几个概念
+		服务(Service)：要获得的对象就是服务；
+		注册服务（动作步骤）；
+		服务容器：负责管理已经注册了的服务，负责注册服务以及返回服务；
+		查询服务（动作）：创建对象以及关联对象，要和返回对象的过程；
+		对象生命周期：
+					Transient(瞬态)，用完就销毁，相当于每次获取都是获取的新的对象;
+					Scoped(范围)，在某个范围用，别的地方可能也会用，可能不会立马销毁，相当于在某一个范围内获取的都是这一个对象；
+					Singleton(单例)，无论谁获取服务，拿到的都是同一个对象;
+
+根据类型来获取和注册服务
+    可以分别指定服务类型(service type)和实现类型(implementation type)。这两者可能相同也可能不同。服务类型可以是类也可以是接口。建议服务类型用接口，进行面相接口编程，能够使程序更灵活。
+	 ITestService t = new TestServiceImp1();
+	 ITestService是服务类。TestServiceImp1是实现类。
+	 
+.Net控制反转组件是DependencyInjection，可以从nuget包中获取，但它也包含ServiceLocator的功能。
+引用包
+ServiceCollection 构造容器对象IServiceProvider，相当于注册。
+通过调用ServiceCollection的BuildServiceProvider()方法创建的ServiceProvider对象来要服务。
+
+生命周期选择：
+1，如果类没有状态，可以使用单例模式Singleton，作为共享对象
+2，如果类有状态且需要范围控制且创建类不需要耗费时间，可以用Scope，线程内唯一
+3，使用瞬态模式时要谨慎。
+
+
+依赖注入：
+	1，依赖注入具有传染性，如果一个类的对象是通过DI创建的，那么这个类的构造函数声明的所有服务类型的参数都会被DI赋值。但是如果一个对象是程序员手动创建的，那么这个对象就和DI没有关系，它的构造函数中声明的服务类型参数就不会被自动赋值。
+	2，.NET的DI默认是构造函数注入
+	3，编码要求：编写一个类，链接数据库做insert操作，并且打印到控制台，把DAO、日志都放入单独的服务类。

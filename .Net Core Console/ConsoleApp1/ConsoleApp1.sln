@@ -13,7 +13,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "委托", "..\..\..\公司�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lambda表达式", "..\..\..\公司培训\自学\.Net Core Console\Lambda表达式\Lambda表达式.csproj", "{B7062A0E-B6E0-4D09-8F03-0E02AF4F59B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinQ", "..\..\..\公司培训\自学\.Net Core Console\LinQ\LinQ.csproj", "{BC5FEE33-B6D1-4DAF-8001-6DDB135D7F9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinQ", "..\..\..\公司培训\自学\.Net Core Console\LinQ\LinQ.csproj", "{BC5FEE33-B6D1-4DAF-8001-6DDB135D7F9A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "解决方案项", "解决方案项", "{092F88F9-AA89-4675-AD1C-73F1105D6CE4}"
+	ProjectSection(SolutionItems) = preProject
+		依赖注入概念笔记.txt = 依赖注入概念笔记.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IOC1", "..\..\..\公司培训\自学\.Net Core Console\IOC1\IOC1.csproj", "{67E38B17-7701-4001-8316-43E1C6CE786E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +52,10 @@ Global
 		{BC5FEE33-B6D1-4DAF-8001-6DDB135D7F9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC5FEE33-B6D1-4DAF-8001-6DDB135D7F9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC5FEE33-B6D1-4DAF-8001-6DDB135D7F9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67E38B17-7701-4001-8316-43E1C6CE786E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67E38B17-7701-4001-8316-43E1C6CE786E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67E38B17-7701-4001-8316-43E1C6CE786E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67E38B17-7701-4001-8316-43E1C6CE786E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
